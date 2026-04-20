@@ -70,3 +70,12 @@ python -m pytest tests/ -v --cov=app --cov-report=term-missing
 - Timing-safe login — dummy hash evaluated when user not found
 - Soft deletes only — financial records are never destroyed
 - Non-root Docker user in production
+
+## Test coverage
+
+22 tests · 86% coverage
+
+Run the suite:
+```bash
+python -m pytest tests/ -v --cov=app --cov-report=term-missing
+```
